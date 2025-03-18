@@ -59,6 +59,8 @@
 		18C26C54273C16C800805154 /* MXEventContentPollStart.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C26C51273C16C700805154 /* MXEventContentPollStart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18C26C55273C16C800805154 /* MXEventContentPollStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C26C52273C16C700805154 /* MXEventContentPollStart.m */; };
 		18C26C56273C16C800805154 /* MXEventContentPollStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C26C52273C16C700805154 /* MXEventContentPollStart.m */; };
+		270192082D89903D006C49D6 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270192072D89903D006C49D6 /* Package.swift */; };
+		270192092D89903D006C49D6 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270192072D89903D006C49D6 /* Package.swift */; };
 		3209683126396385005D64ED /* AllTestsWithSanitizers.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 3209682F26396385005D64ED /* AllTestsWithSanitizers.xctestplan */; };
 		3209683226396385005D64ED /* AllTestsWithSanitizers.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 3209682F26396385005D64ED /* AllTestsWithSanitizers.xctestplan */; };
 		3209683326396385005D64ED /* UnitTestsWithSanitizers.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 3209683026396385005D64ED /* UnitTestsWithSanitizers.xctestplan */; };
@@ -2024,6 +2026,7 @@
 		18C26C51273C16C700805154 /* MXEventContentPollStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXEventContentPollStart.h; sourceTree = "<group>"; };
 		18C26C52273C16C700805154 /* MXEventContentPollStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXEventContentPollStart.m; sourceTree = "<group>"; };
 		1D18B4F281A93ADB785B4800 /* Pods-MatrixSDKTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatrixSDKTests-iOS.release.xcconfig"; path = "Target Support Files/Pods-MatrixSDKTests-iOS/Pods-MatrixSDKTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		270192072D89903D006C49D6 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		2D8EE909E54EE5334E1FD271 /* Pods-MatrixSDKTests-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatrixSDKTests-macOS.release.xcconfig"; path = "Target Support Files/Pods-MatrixSDKTests-macOS/Pods-MatrixSDKTests-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		3209682F26396385005D64ED /* AllTestsWithSanitizers.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AllTestsWithSanitizers.xctestplan; sourceTree = "<group>"; };
 		3209683026396385005D64ED /* UnitTestsWithSanitizers.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UnitTestsWithSanitizers.xctestplan; sourceTree = "<group>"; };
@@ -3997,6 +4000,7 @@
 		32C6F92319DD814400EA4E9C = {
 			isa = PBXGroup;
 			children = (
+				270192072D89903D006C49D6 /* Package.swift */,
 				32C03CBA21231C2500D92712 /* AUTHORS.rst */,
 				32D5573526BAF1540023D286 /* CHANGES.md */,
 				32C03CB721231C2500D92712 /* Podfile */,
@@ -6924,6 +6928,7 @@
 				ECD289BF26FDE5F700F268CF /* MXStoreRoomListDataCounts.swift in Sources */,
 				320BBF441D6C81550079890E /* MXEventsEnumeratorOnArray.m in Sources */,
 				32618E7220ED2DF500E1D2EA /* MXFilterJSONModel.m in Sources */,
+				270192082D89903D006C49D6 /* Package.swift in Sources */,
 				3259D02526037A7200C365DB /* NSDictionary.swift in Sources */,
 				EC0B9418271855CA00B4D440 /* MXCoreDataRoomSummaryStore.swift in Sources */,
 				ECF29BE52641953C0053E6D6 /* MXAssertedIdentityModel.m in Sources */,
@@ -7552,6 +7557,7 @@
 				B14EF26E2397E90400758AF0 /* MXFileRoomStore.m in Sources */,
 				EC60ED9D265CFE1700B39A4E /* MXRoomSyncState.m in Sources */,
 				324676ED25C15F4600EA855B /* MXMemory.swift in Sources */,
+				270192092D89903D006C49D6 /* Package.swift in Sources */,
 				EC60ED6A265CFC7200B39A4E /* MXPresenceSyncResponse.m in Sources */,
 				EDD578E42881C37C006739DD /* MXTrustLevelSource.swift in Sources */,
 				3A108AA525810FE5005EEBE9 /* MXRawDataKey.m in Sources */,
